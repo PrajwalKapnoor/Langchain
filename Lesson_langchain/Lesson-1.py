@@ -4,7 +4,7 @@
 # ============================================================
 # LESSON 1 — LANGCHAIN BASICS
 # Project: AI Programming Assistant
-# ============================================================
+
 
 from langchain_openai import ChatOpenAI
 
