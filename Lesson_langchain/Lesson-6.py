@@ -6,6 +6,7 @@ from langchain_community.document_loaders import TextLoader
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_community.document_loaders import DirectoryLoader
 from warnings import filterwarnings
+
 filterwarnings("ignore")
 loader = TextLoader(
     "Lesson_langchain\data.txt"
