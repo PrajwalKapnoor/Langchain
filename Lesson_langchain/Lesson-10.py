@@ -38,7 +38,6 @@ documents = [
     )
 ]
 
-
 text_splitter = RecursiveCharacterTextSplitter(
     chunk_size=200,
     chunk_overlap=40,
