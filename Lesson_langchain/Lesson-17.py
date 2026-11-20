@@ -95,6 +95,7 @@ while True:
     response = chat(user_input)
 
     print("\nAI:", response)
+    print("\n")
 
     if conversation_summary:
         print("\n[Conversation summary updated]")
