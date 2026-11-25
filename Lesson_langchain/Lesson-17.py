@@ -1,11 +1,10 @@
-
-
 import os
 from dotenv import load_dotenv
 
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.messages import HumanMessage, AIMessage, SystemMessage
+from langchain_groq import ChatGroq
 
 load_dotenv()
 
